@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './style.css';
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
   setInterval(UpdateTime,1000)
   return(
     <>
-    <h1> {ctime} </h1>
+    <h1 className="clock"> {ctime} </h1>
     
     </>
   )
